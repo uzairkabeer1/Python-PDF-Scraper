@@ -1,6 +1,6 @@
 import pdfquery
 
-pdf = pdfquery.PDFQuery('data/BUSTA_PAGA - 2.pdf')
+pdf = pdfquery.PDFQuery('BUSTA_PAGA - 2.pdf')
 pdf.load()
 pdf.tree.write('pdfXML.txt', pretty_print = True)
 
